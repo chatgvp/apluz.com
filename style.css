@@ -1,0 +1,60 @@
+* {
+    font-family: "Poppins";
+    font-style: normal;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+}
+.nav-link:focus {
+    color: blue;
+}
+.nav-link {
+    color: #4a4a4b;
+}
+.nav-link:hover {
+    background-color: #d2d2d6;
+    border-radius: 10px;
+    color: #4a4a4b;
+}
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+.login-icon {
+    font-size: 36px;
+}
+a {
+    text-decoration: none;
+    color: #4a4a4b;
+}
+.item:hover {
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1);
+}
+.ButtonClicked {
+    background-color: blue;
+}
+.floating-icon {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.floating-icon i {
+    color: white;
+    font-size: 30px;
+}
+.d-flex flex-column min-vh-100 layout-top-nav {
+    background-image: linear-gradient(to bottom right, #fff, #f0ffff);
+}
