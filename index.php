@@ -156,7 +156,7 @@ session_start();
                     <div class="item ">
                         <a href="item_select.php?id=<?php echo $product_id?>" class="card card-hover shadow text-decoration-none">
                         <div class="mx-auto mt-3">
-                            <?php echo '<img class="img-fluid rounded" style="background-size:cover; height: 1500px;" src="data:image/jpeg;base64,'.base64_encode($product_image).'"
+                            <?php echo '<img class="img-fluid rounded" style="background-size:cover; height: 200px;" src="data:image/jpeg;base64,'.base64_encode($product_image).'"
                             alt="image"/>';?>
                             </div>
                             <div class="card-body text-dark text-center">
